@@ -66,64 +66,8 @@
         "floor": 5
       }
 ,      "render_order":2
-    },
-    {
-      "x":43,
-      "y":32,
-      "color":"desaturated_green",
-      "name":"Orc",
-      "blocks": true,
-      "fighter":{
-        "power":5,
-        "xp":15,
-        "hp":16,
-        "max_hp":16,
-        "defense":0,
-      }
+    }
 ,
-      "ai":{
-        "ai":"BasicMonster"
-      }
-,      "render_order":3
-    },
-    {
-      "x":45,
-      "y":34,
-      "color":"desaturated_green",
-      "name":"Orc",
-      "blocks": true,
-      "fighter":{
-        "power":5,
-        "xp":15,
-        "hp":16,
-        "max_hp":16,
-        "defense":0,
-      }
-,
-      "ai":{
-        "ai":"BasicMonster"
-      }
-,      "render_order":3
-    },
-    {
-      "x":43,
-      "y":36,
-      "color":"desaturated_green",
-      "name":"Orc",
-      "blocks": true,
-      "fighter":{
-        "power":5,
-        "xp":15,
-        "hp":16,
-        "max_hp":16,
-        "defense":0,
-      }
-,
-      "ai":{
-        "ai":"BasicMonster"
-      }
-,      "render_order":3
-    },
     {
       "x":43,
       "y":35,

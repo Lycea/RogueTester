@@ -21,9 +21,13 @@ local function disable_print()
     print = function() end
 end
 
+local function btos(value)
+   return  (type(value)==type(true) and ( value == true and "true" or "false") or value )
+end
 
-local function log(type_,state_,message_)
-    
+
+function tester.log(type_,state_,message_)
+    orig_print("["..type_.."]["..state_.."]  "..btos(message_))
 end
 
 local function add_result(result,message)
@@ -99,9 +103,7 @@ function tester.run_tests(queueu_size)
 end
 
 
-local function btos(value)
-   return  (type(value)==type(true) and ( value == true and "true" or "false") or value )
-end
+
 
 --checks if the time equals and the value equals
 --also checks dicts...
